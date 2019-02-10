@@ -1,0 +1,95 @@
+body {
+    /* background: black; */
+    /* color: white; */
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+}
+
+.name {
+    /* background: black; */
+    /* color: white; */
+}
+
+.name h1 {
+    font-size: 3em;
+}
+
+.details {
+    width: 60%;
+    margin: 10% auto;
+}
+
+.tech {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tech h1 {
+    display: inline;
+}
+
+.tech img {
+    display: inline;
+    margin: 0 1em;
+}
+
+.angular-logo {
+    height: 85px;
+    width: 190px;
+}
+
+.nodejs-logo {
+    height: 85px;
+    width: 200px;
+}
+
+.javascript-logo {
+    height: 85px;
+    width: 85px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+.see-me {
+    margin: 10% 0;
+    /* display: flex; */
+
+}
+
+.see-me-on {
+    display: flex;
+    align-items: center;
+}
+
+.see-me-on img {
+    margin: 0 1em;
+}
+
+.linkedin-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.stackoverflow-logo {
+    height: 35px;
+    width: 100px;
+}
+
+.github-logo {
+    height: 45px;
+    width: 45spx;
+}
+
+
+
+footer a {
+    color: white;
+}
