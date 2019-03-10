@@ -1,17 +1,93 @@
 body {
     /* background: black; */
-    /* color: white; */
+    color: white;
     font-size: 16px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    background: url('./assets/sabri-tuzcu-182689-unsplash.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+    height: 430px;
 }
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    z-index: 99;
+    /* background: red; */
+}
+
+header ul {
+    float: right;
+    list-style-type: none;
+    margin: 1em 0;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+section.cover {
+    color: white;
+    position: absolute;
+    top: 60%;
+    right: 0;
+    width: 54%;
+}
+
+
+.cover .title {}
+
+.cover .title h1 {
+    font-size: 54px;
+}
+
+.cover .title .see-more {
+    width: 200px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.cover .title .see-more:hover {
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+.cover .title .see-more p {
+    vertical-align: middle;
+    font-size: 24px;
+}
+
 
 .name {
     /* background: black; */
     /* color: white; */
 }
 
-.name h1 {
-    font-size: 3em;
+.details-container {
+    position: relative;
+    top: 675px;
+    color: black;
+}
+
+.details-container h1 {
+    margin: 0 1em;
 }
 
 .details {
@@ -50,8 +126,8 @@ body {
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
+    /* position: fixed; */
+    /* bottom: 0; */
     width: 100%;
     background: black;
     color: white;

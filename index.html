@@ -12,12 +12,26 @@
 </head>
 
 <body>
+    <header>
+        <ul>
+            <li>HOME</li>
+            <li>ABOUT</li>
+            <li>CONTACT</li>
+        </ul>
+    </header>
     <main>
-        <section>
+        <section class="cover">
+            <div class="title">
+                <h1>Hello, I'm <br>Ravichandra Bhanage</h1>
+                <p>Frontend Developer / Full Stack Developer</p>
+                <a href="#about-me" class="see-more">
+                    <p>See more</p>
+                </a>
+            </div>
+        </section>
+        <section id="about-me" class="details-container">
+            <h1>About Me</h1>
             <div class="details">
-                <div class="name">
-                    <h1>Ravichandra Bhanage.</h1>
-                </div>
                 <div class="tech">
                     <h1>My tech stack</h1>
                     <img class="angular-logo" title="Angular" src="https://cdn.worldvectorlogo.com/logos/angular-3.svg"
@@ -46,9 +60,10 @@
             </div>
         </section>
     </main>
-    <footer>
+
+    <!-- <footer>
         <small><a href="mailto:ravbhanage@gmail.com">ravbhanage@gmail.com</a></small>
-    </footer>
+    </footer> -->
 </body>
 
 </html>
