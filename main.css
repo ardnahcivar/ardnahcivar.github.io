@@ -30,12 +30,17 @@ header ul {
 header ul li {
     display: inline;
     margin: 0 1em;
+    cursor: pointer;
+}
+
+header ul li:hover {
+    /* font-size: 20px; */
 }
 
 section.cover {
     color: white;
     position: absolute;
-    top: 60%;
+    top: 33%;
     right: 0;
     width: 54%;
 }
@@ -45,6 +50,10 @@ section.cover {
 
 .cover .title h1 {
     font-size: 54px;
+}
+
+.cover .title .skills {
+    /* border: 1px solid; */
 }
 
 .cover .title .see-more {
@@ -111,18 +120,18 @@ section.cover {
 }
 
 .angular-logo {
-    height: 85px;
-    width: 190px;
+    height: inherit;
+    width: inherit;
 }
 
 .nodejs-logo {
-    height: 85px;
-    width: 200px;
+    height: inherit;
+    width: inherit;
 }
 
 .javascript-logo {
-    height: 85px;
-    width: 85px;
+    height: inherit;
+    width: inherit;
 }
 
 footer {
@@ -165,6 +174,33 @@ footer {
 }
 
 
+.tech-stack-container {
+    position: relative;
+    top: 780px;
+    color: black;
+}
+
+.tech-stack-title p {
+    font-size: 48px;
+    margin: 0 2em;
+}
+
+.tech-stack-skills {
+    width: 60%;
+    float: right;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.tech-stack-skills .skill-item {
+    height: 175px;
+    width: 175px;
+    padding: 1em;
+    margin: 1em;
+    /* border: 1px solid black; */
+    background: #eaeaea
+}
 
 footer a {
     color: white;
