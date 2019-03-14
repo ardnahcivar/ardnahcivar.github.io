@@ -33,6 +33,11 @@ header ul li {
     cursor: pointer;
 }
 
+header ul li a {
+    text-decoration: none;
+    color: white;
+}
+
 header ul li:hover {
     /* font-size: 20px; */
 }
@@ -136,7 +141,7 @@ section.cover {
 
 footer {
     /* position: fixed; */
-    /* bottom: 0; */
+    /* bottom: 0;  */
     width: 100%;
     background: black;
     color: white;
@@ -159,18 +164,18 @@ footer {
 }
 
 .linkedin-logo {
-    height: 50px;
-    width: 100px;
+    height: 30px;
+    width: 30px;
 }
 
 .stackoverflow-logo {
-    height: 35px;
-    width: 100px;
+    height: 30px;
+    width: 30px;
 }
 
 .github-logo {
-    height: 45px;
-    width: 45spx;
+    height: 30px;
+    width: 30px;
 }
 
 
@@ -180,8 +185,8 @@ footer {
     color: black;
 }
 
-.tech-stack-title p {
-    font-size: 48px;
+.tech-stack-title {
+    /* font-size: 48px; */
     margin: 0 2em;
 }
 
@@ -194,14 +199,65 @@ footer {
 }
 
 .tech-stack-skills .skill-item {
-    height: 175px;
-    width: 175px;
+    height: 125px;
+    width: 125px;
     padding: 1em;
     margin: 1em;
     /* border: 1px solid black; */
     background: #eaeaea
 }
 
+.contact-me {
+    clear: right;
+}
+
+.contact-me .contact-info,
+.contact-me .leave-message {
+    display: inline-block;
+}
+
+
+
+.contact-me .contact-info {
+    margin: 0 2em;
+}
+
+
+/* .contact-info .contact-title {
+    margin: 0 2em;
+} */
+
+.contact-me .leave-message {}
+
+.social-networks {
+    padding: 1em 0;
+    display: flex;
+    justify-content: center;
+    background: #eaeaea;
+}
+
+.social-networks * {
+    margin: 0 3em;
+}
+
+.certifications {
+    clear: right;
+}
+
+.certifications .cert-title {
+    margin: 0 2em;
+}
+
+.cert-content ul li a {
+    text-decoration: none;
+    color: black;
+}
+
 footer a {
     color: white;
+}
+
+footer .rights-reserved {
+    float: right;
+    margin: 0 5em;
 }
