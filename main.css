@@ -1,263 +1,102 @@
-body {
-    /* background: black; */
-    color: white;
-    font-size: 16px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
-    background: url('./assets/sabri-tuzcu-182689-unsplash.jpg') no-repeat center center;
-    background-size: cover;
-    position: relative;
-    height: 430px;
-}
-
-
-header {
+header{
     position: fixed;
-    top: 0;
-    left: 0;
-    height: 60px;
-    width: 100%;
-    z-index: 99;
-    /* background: red; */
-}
-
-header ul {
-    float: right;
-    list-style-type: none;
-    margin: 1em 0;
-    padding: 0;
-}
-
-header ul li {
-    display: inline;
-    margin: 0 1em;
-    cursor: pointer;
-}
-
-header ul li a {
-    text-decoration: none;
-    color: white;
-}
-
-header ul li:hover {
-    /* font-size: 20px; */
-}
-
-section.cover {
-    color: white;
-    position: absolute;
-    top: 33%;
-    right: 0;
-    width: 54%;
-}
-
-
-.cover .title {}
-
-.cover .title h1 {
-    font-size: 54px;
-}
-
-.cover .title .skills {
-    /* border: 1px solid; */
-}
-
-.cover .title .see-more {
-    width: 200px;
-    height: 50px;
-    background: transparent;
-    border: 2px solid white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    color: white;
-}
-
-.cover .title .see-more:hover {
+    z-index: 999;
     background: white;
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
 }
 
-
-.cover .title .see-more p {
-    vertical-align: middle;
-    font-size: 24px;
+header,header ul{
+    display: flex !important;
 }
 
-
-.name {
-    /* background: black; */
-    /* color: white; */
-}
-
-.details-container {
-    position: relative;
-    top: 675px;
-    color: black;
-}
-
-.details-container h1 {
-    margin: 0 1em;
-}
-
-.details {
-    width: 60%;
-    margin: 10% auto;
-}
-
-.tech {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.tech h1 {
-    display: inline;
-}
-
-.tech img {
-    display: inline;
-    margin: 0 1em;
-}
-
-.angular-logo {
-    height: inherit;
-    width: inherit;
-}
-
-.nodejs-logo {
-    height: inherit;
-    width: inherit;
-}
-
-.javascript-logo {
-    height: inherit;
-    width: inherit;
-}
-
-footer {
-    /* position: fixed; */
-    /* bottom: 0;  */
-    width: 100%;
-    background: black;
-    color: white;
-    text-align: center;
-}
-
-.see-me {
-    margin: 10% 0;
-    /* display: flex; */
-
-}
-
-.see-me-on {
-    display: flex;
-    align-items: center;
-}
-
-.see-me-on img {
-    margin: 0 1em;
-}
-
-.linkedin-logo {
-    height: 30px;
-    width: 30px;
-}
-
-.stackoverflow-logo {
-    height: 30px;
-    width: 30px;
-}
-
-.github-logo {
-    height: 30px;
-    width: 30px;
-}
-
-
-.tech-stack-container {
-    position: relative;
-    top: 780px;
-    color: black;
-}
-
-.tech-stack-title {
-    /* font-size: 48px; */
-    margin: 0 2em;
-}
-
-.tech-stack-skills {
-    width: 60%;
-    float: right;
-    display: flex;
-    justify-content: left;
-    flex-wrap: wrap;
-}
-
-.tech-stack-skills .skill-item {
-    height: 125px;
-    width: 125px;
-    padding: 1em;
-    margin: 1em;
-    /* border: 1px solid black; */
-    background: #eaeaea
-}
-
-.contact-me {
-    clear: right;
-}
-
-.contact-me .contact-info,
-.contact-me .leave-message {
+header p{
+    padding: 0 1em;
+    width:20%;
     display: inline-block;
 }
 
-
-
-.contact-me .contact-info {
-    margin: 0 2em;
+header ul{
+    width: 80%;
+    justify-content: flex-end;   
 }
 
-
-/* .contact-info .contact-title {
-    margin: 0 2em;
-} */
-
-.contact-me .leave-message {}
-
-.social-networks {
-    padding: 1em 0;
-    display: flex;
-    justify-content: center;
-    background: #eaeaea;
+header ul li{
+    list-style-type: none;
+    padding: 0 0.25em;
+    margin: 0 0.5em;
 }
 
-.social-networks * {
-    margin: 0 3em;
-}
-
-.certifications {
-    clear: right;
-}
-
-.certifications .cert-title {
-    margin: 0 2em;
-}
-
-.cert-content ul li a {
+header ul li a{
     text-decoration: none;
-    color: black;
+    padding: 0.5em;
+    color: #000;
 }
 
-footer a {
-    color: white;
+header ul li a:focus{
+    background: #34C6FF;
+    color: #fff;
 }
 
-footer .rights-reserved {
-    float: right;
-    margin: 0 5em;
+header ul li a:active{
+    color:#fff;
+}
+
+.name{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+
+.name h1{
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.myname{
+    font-size: 3em;
+    font-weight: 700;
+}
+
+@keyframes bounce{
+    0%{
+        top:3x;
+    }
+    20%{
+        top:0;
+    }
+    40%{
+        top:-3px;
+    }
+    60%{
+        top:0;
+    }
+    80%{
+        top:3px;
+    }
+    100%{
+        top:0;
+    }
+}
+
+#titles{
+    background: #34C6FF;
+    padding: 0 0.5em;
+    color: #fff;
+    position: relative;
+    animation: bounce 2s infinite;
+}
+
+#about-me,#contact{
+    position: relative;
+    top: 600px;
+}
+.mealign{
+    margin: 1em 0;
+}
+
+.fa-envelope-o,.fa-linkedin-square{
+    font-size: 3em !important;
+}
+.fa-envelope-o,.fa-heart{
+    color:#d14836
 }
