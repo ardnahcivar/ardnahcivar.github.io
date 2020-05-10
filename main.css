@@ -1,7 +1,11 @@
+body{
+    background: #000 !important;
+    color:#fff !important;
+}
+
 header{
     position: fixed;
     z-index: 999;
-    background: white;
     width: 100%;
 }
 
@@ -30,7 +34,6 @@ header ul li{
 header ul li a{
     text-decoration: none;
     padding: 0.5em;
-    color: #000;
 }
 
 header ul li a:focus{
@@ -81,11 +84,12 @@ header ul li a:active{
 }
 
 #titles{
-    background: #34C6FF;
+    background: orange;
     padding: 0 0.5em;
     color: #fff;
     position: relative;
     animation: bounce 2s infinite;
+    border-radius: 50px;
 }
 
 #about-me,#contact{
@@ -104,7 +108,7 @@ header ul li a:active{
     color:#d14836
 }
 .fa-github{
-    color: #000;
+    color: #fff;
 }
 .fa-stack-overflow{
     color:orange

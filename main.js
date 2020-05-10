@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded',() => {
     let t = document.querySelector('#titles')
     let titles = [
-        'Web Developer',
-        'UI Developer',
-        'Frontend Developer',
-        'Full Stack Engineer'
+        'Web Developer.',
+        'UI Developer.',
+        'Frontend Developer.',
+        'Full Stack Engineer.'
     ]
     let initial = 0
     t.textContent = titles[initial]
