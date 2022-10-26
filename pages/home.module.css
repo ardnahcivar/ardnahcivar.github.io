@@ -1,0 +1,43 @@
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 7rem;
+  }
+  
+  .profile{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .profile img{
+    border-radius: 50%;
+  }
+  
+  .intro{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  
+  .intro * {
+    margin: 0.25rem 0;
+  }
+  
+  .intro h1 {
+    font-size: 3rem;
+  }
+  
+  .socialProfiles{
+    display: flex;
+    align-items: center;
+  }
+  
+  .profileLink{
+    cursor: pointer;
+    padding-right: 0.5rem;
+  }
