@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 import styles from "./home.module.css";
+import ActiveLink from './../components/active-link';
 
 const Home = () => {
   return (
@@ -11,7 +12,6 @@ const Home = () => {
           I am a Software Engineer with an expertise in building Frontend
           applications.
         </h4>
-
         <section className={styles.socialProfiles}>
           <div className={styles.profileLink}>
             <a
@@ -74,6 +74,11 @@ const Home = () => {
             </a>
           </div>
         </section>
+        <div>
+            <ActiveLink href={'/about'}>
+              click to know more about me...
+            </ActiveLink>
+        </div>
       </div>
     </section>
   );

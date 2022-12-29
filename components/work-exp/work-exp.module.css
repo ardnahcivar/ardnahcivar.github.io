@@ -1,0 +1,20 @@
+.workexpContainer{
+    border: 1px solid gray;
+    width: 60%;
+    margin: 0 auto;
+    padding: 0.5rem;
+    height: 350px;
+}
+
+.workInfo{
+    display: flex;
+    width: 100%;
+}
+
+.companyNames{
+    width: 30%;
+}
+
+.roleDesc{
+    width: 70%;
+}
