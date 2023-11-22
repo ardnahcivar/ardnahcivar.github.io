@@ -1,0 +1,21 @@
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 2rem;
+        padding-left: 2rem;
+    }
+    
+    .listContainer{
+        list-style-type: decimal;
+    }
+
+    .listItem{
+        display: inline-block;
+        color: #424242;
+    }
+
+    .listItemTitle:hover{
+        border-bottom: 1px solid black;
+    }
+    

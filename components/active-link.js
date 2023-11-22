@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 const ActiveLink = ({ children, href }) => {
   const router = useRouter();
   const style = {
-    borderBottom: router.asPath === href ? `1px solid black` : null,
+    borderBottom: router.asPath === href ? `1px solid white` : null,
   }
 
   const handleClick = (e) => {

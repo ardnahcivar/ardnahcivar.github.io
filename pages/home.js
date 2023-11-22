@@ -73,12 +73,38 @@ const Home = () => {
               />
             </a>
           </div>
+          <div className={styles.profileLink}>
+            <a
+              href="https://www.instagram.com/ravi.bhanage/"
+              title="Instagram"
+            >
+              <Image
+                src={"/images/instagram.svg"}
+                width={"28px"}
+                height={"28px"}
+                alt={"Instagram"}
+              />
+            </a>
+          </div>
+          <div className={styles.profileLink}>
+            <a
+              href="https://twitter.com/ravbhanage"
+              title="Twitter"
+            >
+              <Image
+                src={"/images/logo-black.png"}
+                width={"28px"}
+                height={"28px"}
+                alt={"Twitter"}
+              />
+            </a>
+          </div>
         </section>
-        <div>
+        {/* <div>
             <ActiveLink href={'/about'}>
               click to know more about me...
             </ActiveLink>
-        </div>
+        </div> */}
       </div>
     </section>
   );

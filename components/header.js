@@ -11,20 +11,23 @@ const Header = () => (
         <Head>
             <title>{title}</title>
             <meta name="viewport" content="initial-scale=1.0, width=device-width"></meta>
-            <meta name="author" content="ravichandra bhanage"></meta>
-            <meta name="keywords" content="Frontend Engineer, UI, Javascript, Web, Software Engineer"></meta>
+            <meta name="author" content="ravichandra bhanage, ravi, ravii.xyz, ravii"></meta>
+            <meta name="keywords" content="Tech, Frontend Engineer, UI, Javascript, Web, Software Engineer, ravi, ravii, ravii.xyz"></meta>
             <meta name="description" content="Frontend Engineer with expertise in building web based applications"></meta>
         </Head>
-        <header className={styles.header} >
+        <header className={styles.header}>
             <ul>
                 <li>
                     <ActiveLink href="/">home</ActiveLink>
                 </li>
-                <li>
-                    <ActiveLink href="/about">about</ActiveLink>
+                {/* <li>
+                    <ActiveLink href="/work">work</ActiveLink>
                 </li>
                 <li>
-                    <ActiveLink href="/blog"> blog</ActiveLink>
+                    <ActiveLink href="/about-me">about</ActiveLink>
+                </li> */}
+                <li>
+                    <ActiveLink href="/blog">blog</ActiveLink>
                 </li>
             </ul>
         </header>

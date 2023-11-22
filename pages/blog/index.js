@@ -1,8 +1,9 @@
+import {ContentIndex } from './content-index/content-index';
+
 const Blog = () => {
     return(
         <div>
-            <p>blog page...</p>
-            <p>wip</p>
+            <ContentIndex />
         </div>
     )
 };

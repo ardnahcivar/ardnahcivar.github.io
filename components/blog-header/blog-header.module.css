@@ -1,0 +1,20 @@
+.blogHeader{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.blogTitle{
+    margin: 0.5rem 0; 
+    color: #616161;
+}
+
+.dateContainer{
+    display: flex;
+    width: 100%;
+}
+
+.dateValue{
+    color: gray;
+    font-size: small;
+}
