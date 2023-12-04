@@ -3,18 +3,25 @@
         flex-direction: column;
         justify-content: center;
         margin-left: 2rem;
-        padding-left: 2rem;
+        padding: 0;
     }
     
     .listContainer{
         list-style-type: decimal;
+        padding: 0;
     }
 
     .listItem{
         display: inline-block;
         color: #424242;
+        width: 100%;
+        padding: 0.25rem;
     }
 
+    .listItemId{
+        padding:0 0.5rem;
+    }
+    
     .listItemTitle:hover{
         border-bottom: 1px solid black;
     }

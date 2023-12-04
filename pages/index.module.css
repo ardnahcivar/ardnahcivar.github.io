@@ -1,9 +1,25 @@
 .main{
-    position: fixed;
+    display: flex;
+    position: relative;
     top: 60px;
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 1rem;
-    overflow-y: scroll;
+    overflow-y: auto;
+    margin: 0 5rem;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .main{
+        padding: 0.25rem;
+        margin: 0;
+    }
+}
+
+.codeHighlight{
+    font-weight: bold;
+    padding: 0 0.125rem;
+    /* background-color: black; */
+    /* color: white; */
 }

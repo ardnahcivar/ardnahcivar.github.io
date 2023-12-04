@@ -10,7 +10,7 @@ const BlogHeader = props => {
                 {title}
             </h1>
             <div className={styles.dateContainer}>
-                <span className={styles.dateValue}>{`Created on ${date}`}</span>
+                <span className={styles.dateValue}>{`Created on ${new Date(+date).toLocaleDateString()}`}</span>
             </div>
         </div>
     )

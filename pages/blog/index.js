@@ -1,4 +1,4 @@
-import {ContentIndex } from './content-index/content-index';
+import ContentIndex  from './content-index/content-index';
 
 const Blog = () => {
     return(

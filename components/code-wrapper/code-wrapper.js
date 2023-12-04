@@ -1,4 +1,4 @@
-import {  CodeBlock, dracula } from "react-code-blocks";
+import {  CodeBlock, dracula,  } from "react-code-blocks";
 
 import styles from './code-wrapper.module.css';
 

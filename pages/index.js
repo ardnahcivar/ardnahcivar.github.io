@@ -7,10 +7,7 @@ import HomePage from './home';
 export default function App() {
   return (
     <>
-      {/* <Header /> */}
-      <main>
-        <HomePage />
-      </main>
+      <HomePage />
     </>
   )
 }

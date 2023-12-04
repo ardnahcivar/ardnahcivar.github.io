@@ -22,13 +22,13 @@ const Header = () => (
                 </li>
                 {/* <li>
                     <ActiveLink href="/work">work</ActiveLink>
-                </li>
-                <li>
-                    <ActiveLink href="/about-me">about</ActiveLink>
                 </li> */}
                 <li>
-                    <ActiveLink href="/blog">blog</ActiveLink>
+                    <ActiveLink href="/about-me">about-me</ActiveLink>
                 </li>
+                {/* <li>
+                    <ActiveLink href="/blog">blog</ActiveLink>
+                </li> */}
             </ul>
         </header>
     </>
