@@ -2,6 +2,7 @@ import BlogContainer from "../../../components/blog-container/blog-container";
 import BlogContent from "../../../components/blog-content/blog-content";
 import BlogHeader from "../../../components/blog-header/blog-header";
 import CodeWrapper from "../../../components/code-wrapper/code-wrapper";
+import Comments from "../../../components/comments/comments";
 
 import styles from "./../../index.module.css";
 
@@ -287,6 +288,7 @@ const CreateYourOwnDom = () => {
             </div>
           </div>
         </BlogContent>
+        <Comments />
       </BlogContainer>
     </div>
   );

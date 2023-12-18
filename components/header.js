@@ -26,9 +26,9 @@ const Header = () => (
                 <li>
                     <ActiveLink href="/about-me">about-me</ActiveLink>
                 </li>
-                {/* <li>
+                <li>
                     <ActiveLink href="/blog">blog</ActiveLink>
-                </li> */}
+                </li>
             </ul>
         </header>
     </>

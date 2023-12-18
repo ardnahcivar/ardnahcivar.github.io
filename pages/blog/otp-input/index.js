@@ -4,6 +4,7 @@ import BlogContainer from "../../../components/blog-container/blog-container";
 import BlogHeader from "../../../components/blog-header/blog-header";
 import BlogContent from "../../../components/blog-content/blog-content";
 import CodeWrapper from "../../../components/code-wrapper/code-wrapper";
+import Comments from "../../../components/comments/comments";
 import styles from './../../index.module.css';
 
 const title = `Creating a OTP Input component using Javascript, HTML and CSS`;
@@ -209,6 +210,7 @@ const OtpInput = (props) => {
           </div>
         </div>
         </BlogContent>
+        <Comments />
       </BlogContainer>
     </div>
   );
