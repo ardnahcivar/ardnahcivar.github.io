@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Link from 'next/Link';
 
 import styles from './header.module.css';
 import ActiveLink from './active-link';
