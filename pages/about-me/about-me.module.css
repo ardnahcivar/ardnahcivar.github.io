@@ -1,2 +1,6 @@
-.aboutMeContainer{
-}   
+.aboutMeContainer h2{
+    font-size: 2rem;
+}
+.aboutMeContainer p{
+    font-size: 1.5rem;
+}

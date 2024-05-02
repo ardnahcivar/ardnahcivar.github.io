@@ -18,8 +18,12 @@ a {
 
 body{
   margin: 2rem;
-  background: #fff;
+  background: gainsboro;
 }
+ header{
+  background: gainsboro;
+
+ }
 
 @media (min-width: 320px) and (max-width: 480px) {
   html{

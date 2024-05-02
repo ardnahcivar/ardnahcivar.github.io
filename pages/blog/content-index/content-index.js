@@ -6,6 +6,15 @@ export const ContentIndex = props => {
 
     const listOfArticles = [
         {
+            key: 'lift-simulation',
+            title: 'Create a UI to show simulation of Lifts'
+        },
+        // {
+        //     key: 'for-loops',
+        //     title: 'Different for loops, which to use when ?',
+        // },
+
+        {
             key: 'create-your-own-dom',
             title: 'Create your own DOM API implementation',
             createdDate: '1701585924844'

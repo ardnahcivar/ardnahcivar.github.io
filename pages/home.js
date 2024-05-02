@@ -75,7 +75,7 @@ const Home = () => {
           </div>
           <div className={styles.profileLink}>
             <a
-              href="https://www.instagram.com/ravi.bhanage/"
+              href="https://www.instagram.com/ravbhanage/"
               title="Instagram"
             >
               <Image
