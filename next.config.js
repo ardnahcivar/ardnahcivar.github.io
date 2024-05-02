@@ -4,6 +4,14 @@ const nextConfig = {
   swcMinify: true,
   images: {
     unoptimized:true
+  },
+  rewrites: async () => {
+    return[
+      {
+        source:'/',
+        destination:'/lift-sim/index.html'
+      }
+    ]
   }
 }
 

@@ -27,7 +27,7 @@ body{
 
 @media (min-width: 320px) and (max-width: 480px) {
   html{
-    font-size: 12px;
+    font-size: 10px;
   }
   body{
     margin: 1rem;

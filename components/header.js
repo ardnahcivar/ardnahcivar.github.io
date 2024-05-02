@@ -18,16 +18,16 @@ const Header = () => (
         <header className={styles.header}>
             <ul>
                 <li>
-                    <ActiveLink href="/">home</ActiveLink>
+                    <ActiveLink href="/">Home</ActiveLink>
                 </li>
                 {/* <li>
                     <ActiveLink href="/work">work</ActiveLink>
                 </li> */}
                 <li>
-                    <ActiveLink href="/about-me">about-me</ActiveLink>
+                    <ActiveLink href="/about-me">About-me</ActiveLink>
                 </li>
                 <li>
-                    <ActiveLink href="/blog">blog</ActiveLink>
+                    <ActiveLink href="/blog">Blog</ActiveLink>
                 </li>
             </ul>
         </header>

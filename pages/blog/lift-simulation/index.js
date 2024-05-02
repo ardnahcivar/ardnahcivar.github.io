@@ -4,6 +4,7 @@ import BlogContent from "../../../components/blog-content/blog-content";
 import CodeWrapper from "../../../components/code-wrapper/code-wrapper";
 import Comments from "../../../components/comments/comments";
 import styles from "./../../index.module.css";
+import ActiveLink from "./../../../components/active-link";
 
 const title = `Create a UI to show simulation of Lifts`;
 const date = `1706634205924`;
@@ -27,7 +28,11 @@ const LiftSimulation = () => {
               , and I have tried to solve it, and will be showing one possible
               approach to implement it
             </p>
-            <p>you can check it out here <a href={codeRefUrl}>demo</a></p>
+            <p>
+              you can check it out here <ActiveLink href={`http://localhost:3000/lift-sim/index.html`}>
+                 Demo[click on it]
+              </ActiveLink>
+            </p>
           </div>
         </BlogContent>
       </BlogContainer>
