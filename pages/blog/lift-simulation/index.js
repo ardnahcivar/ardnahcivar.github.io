@@ -29,7 +29,7 @@ const LiftSimulation = () => {
               approach to implement it
             </p>
             <p>
-              you can check it out here <ActiveLink href={`http://localhost:3000/lift-sim/index.html`}>
+              you can check it out here <ActiveLink href={`http://ravii.xyz/lift-sim/index.html`}>
                  Demo[click on it]
               </ActiveLink>
             </p>
