@@ -6,6 +6,11 @@ export const ContentIndex = props => {
 
     const listOfArticles = [
         {
+            key: 'f1-race-flood-lights',
+            title: 'F1 race flood lights' 
+        },
+
+        {
             key: 'lift-simulation',
             title: 'Create a UI to show simulation of Lifts'
         },

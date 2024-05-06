@@ -10,6 +10,10 @@ const nextConfig = {
       {
         source:'/',
         destination:'/lift-sim/index.html'
+      },
+      {
+        source:'/',
+        destination:'/f1-race-flood-lights/index.html'
       }
     ]
   }
