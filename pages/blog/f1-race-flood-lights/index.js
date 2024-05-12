@@ -18,13 +18,16 @@ const F1RaceFloodLights = () => {
         <BlogContent>
           <div>
             <p>
-            its a formula one flood lights simulation, where you can check your reaction time
+            its a formula one racing lights simulation, where you can check your reaction time
             </p>
             <p>
               you can check it out here <ActiveLink href={`https://ravii.xyz/f1-race-flood-lights/index.html`}>
                  Demo[click on it]
               </ActiveLink>
             </p>
+            <p>you can also find the code here  <ActiveLink href={`https://github.com/ardnahcivar/f1-race-flood-lights`}>
+                 Code[click on it]
+              </ActiveLink></p>
           </div>
         </BlogContent>
       </BlogContainer>
