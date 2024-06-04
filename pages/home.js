@@ -73,7 +73,7 @@ const Home = () => {
               />
             </a>
           </div>
-          <div className={styles.profileLink}>
+          {/* <div className={styles.profileLink}>
             <a
               href="https://www.instagram.com/ravbhanage/"
               title="Instagram"
@@ -85,7 +85,7 @@ const Home = () => {
                 alt={"Instagram"}
               />
             </a>
-          </div>
+          </div> */}
           <div className={styles.profileLink}>
             <a
               href="https://twitter.com/ravbhanage"

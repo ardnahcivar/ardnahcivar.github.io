@@ -30,4 +30,9 @@
     .listItemTitle:hover{
         border-bottom: 1px solid black;
     }
+
+    .listItemDate{
+        margin-left: 20px;
+        opacity: 0.8;
+    }
     

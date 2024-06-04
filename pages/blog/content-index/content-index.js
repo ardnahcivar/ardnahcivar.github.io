@@ -6,13 +6,20 @@ export const ContentIndex = props => {
 
     const listOfArticles = [
         {
+            key: 'interactive-shape',
+            title: 'Interactive shape',
+            createdDate:'1717483387629'
+        },
+        {
             key: 'f1-race-flood-lights',
-            title: 'F1 race flood lights' 
+            title: 'F1 race flood lights',
+            createdDate:'1715016849555'
         },
 
         {
             key: 'lift-simulation',
-            title: 'Create a UI to show simulation of Lifts'
+            title: 'Create a UI to show simulation of Lifts',
+            createdDate: '1706634205924'
         },
         // {
         //     key: 'for-loops',
@@ -27,7 +34,8 @@ export const ContentIndex = props => {
        {
 
             key:'otp-input',
-            title:  'Creating a OTP input Component'
+            title:  'Creating a OTP input Component',
+            createdDate: '1698690600000'
        }
     ];
 
@@ -41,6 +49,7 @@ export const ContentIndex = props => {
                    <ActiveLink href={`/blog/${item.key}`}>
                     <span className={styles.listItemId}>{`${index+1}. `}</span>
                     <span className={styles.listItemTitle}>{item.title}</span>
+                    <span className={styles.listItemDate}>{new Date(+item.createdDate).toLocaleDateString()}</span>
                    </ActiveLink>
                 </li>
                 )}

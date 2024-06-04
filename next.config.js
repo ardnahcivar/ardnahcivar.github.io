@@ -14,6 +14,10 @@ const nextConfig = {
       {
         source:'/',
         destination:'/f1-race-flood-lights/index.html'
+      },
+      {
+        source:'/',
+        destination:'/interactive-shape/index.html'
       }
     ]
   }
