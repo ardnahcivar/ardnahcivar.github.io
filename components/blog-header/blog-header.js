@@ -1,5 +1,6 @@
 import styles from './blog-header.module.css';
 
+import dateReadableFormat from '../../utils/date-formatter';
 
 const BlogHeader = props => {
     const {title, date} = props;
@@ -10,7 +11,7 @@ const BlogHeader = props => {
                 {title}
             </h1>
             <div className={styles.dateContainer}>
-                <span className={styles.dateValue}>{`Created on ${new Date(+date).toLocaleDateString()}`}</span>
+                <span className={styles.dateValue}>{`Created on ${dateReadableFormat(+date)}`}</span>
             </div>
         </div>
     )

@@ -18,6 +18,14 @@ const nextConfig = {
       {
         source:'/',
         destination:'/interactive-shape/index.html'
+      },
+      {
+        source:'/',
+        destination:'/interactive-velocity-chart/index.html'
+      },
+      {
+        source:'/',
+        destination:'/circles-game/index.html'
       }
     ]
   }

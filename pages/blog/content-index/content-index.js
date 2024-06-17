@@ -1,10 +1,21 @@
 
 import styles from './content-index.module.css';
 import ActiveLink from './../../../components/active-link';
+import dateReadableFormat from '../../../utils/date-formatter';
 
 export const ContentIndex = props => {
 
     const listOfArticles = [
+        {
+            key: 'circles-game',
+            title: 'Circles game',
+            createdDate:'1718613890134'
+        },
+        {
+            key: 'interactive-velocity-chart',
+            title: 'Interactive Velocity chart',
+            createdDate:'1718211820229'
+        },
         {
             key: 'interactive-shape',
             title: 'Interactive shape',
@@ -49,7 +60,7 @@ export const ContentIndex = props => {
                    <ActiveLink href={`/blog/${item.key}`}>
                     <span className={styles.listItemId}>{`${index+1}. `}</span>
                     <span className={styles.listItemTitle}>{item.title}</span>
-                    <span className={styles.listItemDate}>{new Date(+item.createdDate).toLocaleDateString()}</span>
+                    <span className={styles.listItemDate}>{dateReadableFormat(+item.createdDate)}</span>
                    </ActiveLink>
                 </li>
                 )}
