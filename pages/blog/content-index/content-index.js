@@ -7,6 +7,11 @@ export const ContentIndex = props => {
 
     const listOfArticles = [
         {
+            key: 'event-emitter',
+            title:'Event emitter',
+            createdDate:'1719506289147'
+        },
+        {
             key: 'circles-game',
             title: 'Circles game',
             createdDate:'1718613890134'
