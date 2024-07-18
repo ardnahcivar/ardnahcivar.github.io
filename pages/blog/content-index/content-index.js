@@ -7,6 +7,11 @@ export const ContentIndex = props => {
 
     const listOfArticles = [
         {
+            key: 'avatar-picker',
+            title:'Avatar Picker',
+            createdDate:'1721292676572'
+        },
+        {
             key: 'event-emitter',
             title:'Event emitter',
             createdDate:'1719506289147'

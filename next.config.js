@@ -26,6 +26,10 @@ const nextConfig = {
       {
         source:'/',
         destination:'/circles-game/index.html'
+      },
+      {
+        source:'/',
+        destination:'/avatar-picker/index.html'
       }
     ]
   }
