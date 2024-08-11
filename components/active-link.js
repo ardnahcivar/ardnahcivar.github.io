@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router'
 
-const ActiveLink = ({ children, href }) => {
+const ActiveLink = ({ children, href, target, rel }) => {
   const router = useRouter();
   const style = {
     borderBottom: router.asPath === href ? `1px solid black` : null,
@@ -12,7 +12,7 @@ const ActiveLink = ({ children, href }) => {
   }
 
   return (
-    <a href={href} onClick={handleClick} style={style}>
+    <a href={href} onClick={handleClick} style={style} target={target} rel={rel}>
       {children}
     </a>
   )

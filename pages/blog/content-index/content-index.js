@@ -7,6 +7,12 @@ export const ContentIndex = props => {
 
     const listOfArticles = [
         {
+            key: 'exploring-golang-receipt-processor',
+            title:'Exploring Golang by creating a Receipt Processor',
+            createdDate:'1723384985915'
+        },
+
+        {
             key: 'avatar-picker',
             title:'Avatar Picker',
             createdDate:'1721292676572'
@@ -62,7 +68,8 @@ export const ContentIndex = props => {
 
     return(
         <div className={styles.container}>
-            <h1>List of contents</h1>
+            <p style={{fontSize:"20px"}}>My space on the internet, to share my learnings.</p>
+            {/* <h2>List of contents</h2> */}
             <ul className={styles.listContainer}>
                 {listOfArticles.map((item, index) => 
                 

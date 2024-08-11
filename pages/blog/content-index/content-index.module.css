@@ -32,7 +32,8 @@
     }
 
     .listItemDate{
+        font-size: 1.2rem;
         margin-left: 20px;
-        opacity: 0.8;
+        opacity: 0.9;
     }
     
