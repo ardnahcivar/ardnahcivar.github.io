@@ -386,7 +386,7 @@ const ReceiptProcessor = () => {
             <p>
               In order to store the receipts, as we are not using persistent
               data storage, we will be uisng the Map, whose key will be a unique
-              identifier,here we are using UUID for unique indentifier and its
+              identifier, here we are using UUID for unique indentifier and its
               value will a receipt.
             </p>
             <CodeWrapper code={receiptDBMap} lang={goLang} />
@@ -405,7 +405,7 @@ const ReceiptProcessor = () => {
             </p>
             <p>
               We have created three functions
-              `processReceipts`,`applyPointsRule` and `retrieveReceipt` to
+              `processReceipts`, `applyPointsRule` and `retrieveReceipt` to
               handle the processing of the receipts, for calculating the points
               rewarded for that processed receipt and `retrieveReceipt` which is
               responsible for reading receipt from `receiptsDB` and returning
@@ -432,7 +432,7 @@ const ReceiptProcessor = () => {
               we have a counter which is initialized to zero, and upon each
               request we are incrementing it and using it as a key to store the
               receipt then it will cause issue because if we get like 1000
-              simulataneous reqeust to it, it wont read correct counter value
+              simulataneous request to it, it won't read correct counter value
               and we will get duplicates keys, and we will be using the same key
               multiple times, and re-writing the receipt value.
             </p>
@@ -452,7 +452,7 @@ const ReceiptProcessor = () => {
               <li>for total price if is multiple of 0.25, 25 points.</li>
               <li>for every 2 items, 5 points.</li>
               <li>
-                for item description, if lengh is multiple of 3, add points by
+                for item description, if length is multiple of 3, add points by
                 muliplying each item price by 0.2 and round off to nearest
                 integer.
               </li>
